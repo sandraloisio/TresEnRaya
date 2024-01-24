@@ -6,5 +6,6 @@ public class TresEnRaya {
 
     public static void main(String[] args){
         Scanner input=new Scanner(System.in);
+        int opcion=0;
     }
 }
