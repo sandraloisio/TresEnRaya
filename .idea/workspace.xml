@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b4461c2f-dc77-4fc5-acdf-f919c4b75f5b" name="Changes" comment="Elimino una clase main.">
+    <list default="true" id="b4461c2f-dc77-4fc5-acdf-f919c4b75f5b" name="Changes" comment="Avanzo">
       <change beforePath="$PROJECT_DIR$/src/TresEnRaya.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/TresEnRaya.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -106,13 +106,22 @@
       <option name="project" value="LOCAL" />
       <updated>1706688748477</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Avanzo">
+      <option name="closed" value="true" />
+      <created>1706690298337</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1706690298337</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Creo variables y método main" />
     <MESSAGE value="Añado variable de opción al método main" />
     <MESSAGE value="Elimino una clase main." />
-    <option name="LAST_COMMIT_MESSAGE" value="Elimino una clase main." />
+    <MESSAGE value="Avanzo" />
+    <option name="LAST_COMMIT_MESSAGE" value="Avanzo" />
   </component>
 </project>

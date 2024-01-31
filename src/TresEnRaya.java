@@ -39,6 +39,11 @@ public class TresEnRaya {
         } while (opcion!=0);
         input.close();
     }
+    private static void numerarTablero() {
+        for (int i=0; i<9; i++) {
+            tablero[i]=' ';
+        }
+    }
 
     private static void jugar(Scanner input) {
     }
