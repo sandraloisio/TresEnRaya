@@ -6,7 +6,6 @@ public class TresEnRaya {
     private static int victorias=0, derrotas=0;
     private static final char charUsuario='x', charMaquina='o';
 
-    //Resetea el tablero con los numeros de casilla
     public static void main(String[] args){
         Scanner input=new Scanner(System.in);
         int opcion=0;
@@ -148,7 +147,7 @@ public class TresEnRaya {
                     } else {
                         if (tablero[5]==' ') {
                             tablero[5]=charMaquina;
-                    } else {
+                        } else {
                             if (tablero[7]==' ') {
                                 tablero[7]=charMaquina;
                             } else {
@@ -220,8 +219,6 @@ public class TresEnRaya {
                     } while (r==' ' && i<3);
                     return r;
                 }
-
-
 
     }
 }
