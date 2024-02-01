@@ -138,6 +138,89 @@ public class TresEnRaya {
             return ganador;
         }
 
+        private static void ocuparCasilla() {
+            if (tablero[4]==' ') {
+                tablero[4]=charMaquina;
+            } else {
+                if (tablero[4]==charMaquina) {
+                    if (tablero[1]==' ') {
+                        tablero[1]=charMaquina;
+                    } else {
+                        if (tablero[5]==' ') {
+                            tablero[5]=charMaquina;
+                    } else {
+                            if (tablero[7]==' ') {
+                                tablero[7]=charMaquina;
+                            } else {
+                                if (tablero[3]==' ') {
+                                    tablero[3]=charMaquina;
+                                } else {
+                                    int i=0;
+                                    while (tablero[i]!=' ') {
+                                        i++;
+                                    }
+                                    tablero[i]=charMaquina;
+                                }
+                            }
+                        }
+                }
+            } else {
+                    if (tablero[0]==' ') {
+                        tablero[0]=charMaquina;
+                    } else {
+                        if (tablero[2]==' ') {
+                            tablero[2]=charMaquina;
+                        } else {
+                            if (tablero[6]==' ') {
+                                tablero[6]=charMaquina;
+                            } else {
+                                if (tablero[8]==' ') {
+                                    tablero[8]=charMaquina;
+                            } else {
+                                    int i=0;
+                                    while (tablero[i]!=' ') {
+                                        i++;
+                                    }
+                                    tablero[i]=charMaquina;
+                                }
+                        }
+                    }
+                }
+        }
+
+        private static char victoria() {
+                    int i=0;
+                    char r=' ';
+                    do {
+                        if (charUsuario==tablero[3*i] && charUsuario==tablero[(3*i)+1] && charUsuario==tablero[(3*i)+2]) {
+                            r=charUsuario;
+                        }
+                        if (charUsuario==tablero[i] && charUsuario==tablero[3*i] && charUsuario==tablero[6+i]) {
+                            r = charUsuario;
+                        }
+                        if (charUsuario==tablero[0] && charUsuario==tablero[4] && charUsuario==tablero[8]) {
+                            r = charUsuario;
+                        }
+                        if (charUsuario==tablero[2] && charUsuario==tablero[4] && charUsuario==tablero[6]) {
+                            r = charUsuario;
+                        }
+                        if (charMaquina==tablero[3*i] && charMaquina==tablero[(3*i)+1] && charMaquina==tablero[(3*i)+2]) {
+                            r = charMaquina;
+                        }
+                        if (charMaquina==tablero[i] && charMaquina==tablero[3*i] && charMaquina==tablero[6+i]) {
+                            r = charMaquina;
+                        }
+                        if (charMaquina==tablero[0] && charMaquina==tablero[4] && charMaquina==tablero[8]) {
+                            r = charMaquina;
+                        }
+                        if (charMaquina==tablero[2] && charMaquina==tablero[4] && charMaquina==tablero[6]) {
+                            r = charMaquina;
+                        }
+                        i++;
+                    } while (r==' ' && i<3);
+                    return r;
+                }
+
 
 
     }
